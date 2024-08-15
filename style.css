@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #090909;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: auto;
+      background: #5a5a5a56;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    h1 span {
+      text-decoration: underline;
+      font-size: 12px;
+      float: right;
+    }
+
+    h1 span a {
+      color: rgb(17,118,197);
+    }
+
+    input[type="text"] {
+      width: calc(90% - 80px);
+      padding: 10px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      margin-right: 5px;
+      background-color: black;
+      color: white;
+    }
+
+    button {
+      padding: 10px;
+      color: white;
+      transition: background-color 0.2s;
+      background-color: black;
+      font-weight: 600;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #046ed0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+      padding: 4px 1px 4px 8px;
+      background: black;
+      border-radius: 5px;
+    }
+
+    li button {
+      padding: 10px;
+      margin-right: 5px;
+      background-color: #5a5a5a56;
+    }
+
+    .complete {
+      color: #ffffff56;
+      text-decoration: line-through;
+      text-decoration-color: #696969;
+    }
+
+    .delete {
+      color: #c9302c;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #5a5a5a56;
+    }
+
+    .delete:hover {
+      background-color: #c9302c;
+    }
